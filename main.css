@@ -504,7 +504,7 @@ abbr[title]:hover {
     cursor: pointer;
     display: inline-block;
     font-family: Avenir Next, Helvetica Neue, Helvetica, Arial, sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 600;
     height: auto;
     line-height: 1.5;
@@ -670,15 +670,24 @@ textarea {
 }
 
 .btn--primary {
-    border: 2px solid #479e2b;
-    border-radius: 30px;
-    color: #479e2b
+    color: #fff;
+    background: #ee6f5b;
+    background-image: -webkit-linear-gradient(top, #ee6f5b, #dd4454);
+    background-image: -moz-linear-gradient(top, #ee6f5b, #dd4454);
+    background-image: -ms-linear-gradient(top, #ee6f5b, #dd4454);
+    background-image: -o-linear-gradient(top, #ee6f5b, #dd4454);
+    background-image: linear-gradient(to bottom, #ee6f5b, #dd4454);
+    -webkit-border-radius: 5;
+    -moz-border-radius: 5;
+    border-radius: 5px;
+    font-size: 16px;
 }
 
+
 .btn--outline {
+    border-radius: 5px;
+    color: #fff;
     border: 2px solid #fff;
-    border-radius: 30px;
-    color: #fff
 }
 
 .header {
@@ -882,11 +891,11 @@ textarea {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     margin-top: 10px;
-    opacity: .7
+    opacity: .8
 }
 
 .banner__btn:hover {
-    opacity: .9
+    opacity: 1;
 }
 
 .banner .banner__text {
