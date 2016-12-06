@@ -595,7 +595,7 @@ textarea {
     width: 100%
 }
 
-.moodboard .section-heading span {
+.faajob .section-heading span {
     color: #0097d4
 }
 
@@ -624,7 +624,7 @@ textarea {
     font-weight: 600
 }
 
-.moodboard a {
+.faajob a {
     color: #0097d4
 }
 
@@ -745,7 +745,7 @@ textarea {
 .nav__item {
     float: left;
     font-size: 13px;
-    margin-left: 12px
+    margin-left: 20px
 }
 
 .nav__item:first-child {
@@ -800,8 +800,8 @@ textarea {
     overflow: hidden
 }
 
-.banner--moodboard {
-    background-color: #0097d4
+.banner--faajob {
+    background-color: #042c75;
 }
 
 .banner--oyo {
@@ -839,7 +839,7 @@ textarea {
     margin-top: 80px
 }
 
-.banner__logo--moodboard {
+.banner__logo--faajob {
     height: 22px;
     width: 180px
 }
@@ -1026,7 +1026,7 @@ textarea {
     margin-left: 0!important
 }
 
-.objective--moodboard .objective__item {
+.objective--faajob .objective__item {
     background-color: #0097d4;
     border: 1px solid #0097d4;
     color: #fff
@@ -1070,7 +1070,7 @@ textarea {
     height: inherit
 }
 
-.moodboard .cover {
+.faajob .cover {
     background-color: #0097d4
 }
 
@@ -1092,7 +1092,7 @@ textarea {
     fill: #fff
 }
 
-.cover__logo--moodboard {
+.cover__logo--faajob {
     height: 32px;
     width: 220px
 }
@@ -1122,8 +1122,8 @@ textarea {
     width: 100%
 }
 
-.cover__image--moodboard {
-    background-image: url(../images/projects/moodboard/moodboard-cover.png)
+.cover__image--faajob {
+    background-image: url(../images/projects/faajob/faajob-cover.png)
 }
 
 .cover__image--oyo {
@@ -1875,7 +1875,7 @@ textarea {
     .banner__img {
         position: absolute
     }
-    .banner__img--moodboard {
+    .banner__img--faajob {
         bottom: -46px;
         right: -120px;
         width: 780px
