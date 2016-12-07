@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Muli:300,400');
 
 audio:not([controls]) {
     display: none
@@ -411,14 +412,14 @@ body {
     font-size: 16px;
     line-height: 30px;
     font-family: Georgia, Times New Roman, Times, serif;
-    font-weight: 400
+    font-weight: regular
 }
 
 h1, h2, h3, h4, h5, h6 {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     color: #4a4e53;
-    font-family: Avenir Next, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-family: Muli, Helvetica Neue, Helvetica, Arial, sans-serif;
     font-weight: 700
 }
 
@@ -442,7 +443,7 @@ a {
 
 code, pre, samp {
     font-family: Source Code Pro, Consolas, Courier, monospace;
-    font-weight: 400
+    font-weight: regular
 }
 
 pre code {
@@ -488,7 +489,7 @@ abbr, acronym, blockquote, code, input, kbd, q, samp, var {
 
 abbr {
     font-variant: small-caps;
-    font-weight: 600;
+    font-weight: regular;
     text-transform: lowercase
 }
 
@@ -503,9 +504,9 @@ abbr[title]:hover {
     color: inherit;
     cursor: pointer;
     display: inline-block;
-    font-family: Avenir Next, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-family: Muli, Helvetica Neue, Helvetica, Arial, sans-serif;
     font-size: 16px;
-    font-weight: 600;
+    font-weight: bold;
     height: auto;
     line-height: 1.5;
     margin: 0;
@@ -529,7 +530,7 @@ abbr[title]:hover {
 
 fieldset, input, select, textarea {
     box-sizing: border-box;
-    font-family: Avenir Next, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-family: Muli, Helvetica Neue, Helvetica, Arial, sans-serif;
     font-size: 14px;
     margin-bottom: 0;
     margin-top: 0;
@@ -580,7 +581,7 @@ textarea {
 .section-heading span {
     display: block;
     font-size: 24px;
-    font-weight: 600;
+    font-weight: regular;
     overflow: hidden;
     position: relative
 }
@@ -621,7 +622,7 @@ textarea {
 
 .section-subheading {
     font-size: 18px;
-    font-weight: 600
+    font-weight: regular
 }
 
 .faajob a {
@@ -658,10 +659,10 @@ textarea {
 .project figcaption span {
     color: #4a4e53;
     display: block;
-    font-family: Avenir Next, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-family: Muli, Helvetica Neue, Helvetica, Arial, sans-serif;
     font-size: 18px;
     font-style: normal;
-    font-weight: 600;
+    font-weight: regular;
     margin-bottom: 10px
 }
 
@@ -671,12 +672,7 @@ textarea {
 
 .btn--primary {
     color: #fff;
-    background: #ee6f5b;
-    background-image: -webkit-linear-gradient(top, #ee6f5b, #dd4454);
-    background-image: -moz-linear-gradient(top, #ee6f5b, #dd4454);
-    background-image: -ms-linear-gradient(top, #ee6f5b, #dd4454);
-    background-image: -o-linear-gradient(top, #ee6f5b, #dd4454);
-    background-image: linear-gradient(to bottom, #ee6f5b, #dd4454);
+    background: #DD444E;
     -webkit-border-radius: 5;
     -moz-border-radius: 5;
     border-radius: 5px;
@@ -754,7 +750,7 @@ textarea {
 
 .nav__link {
     color: #868c92;
-    font-family: Avenir Next, Helvetica Neue, Helvetica, Arial, sans-serif
+    font-family: Muli, Helvetica Neue, Helvetica, Arial, sans-serif
 }
 
 .nav--white .nav__link {
@@ -772,19 +768,27 @@ textarea {
     clear: both
 }
 
+.intro__inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
 .intro__headline {
     font-size: 24px;
     line-height: 32px;
-    font-weight: 600;
-    margin-bottom: 10px
+    font-weight: regular;
+    margin-bottom: 10px;
+    text-align: center;
 }
 
 .intro__byline {
     font-size: 19px;
     line-height: 32px;
     color: #868c92;
-    font-family: Avenir Next, Helvetica Neue, Helvetica, Arial, sans-serif;
-    max-width: 445px
+    font-family: Muli, Helvetica Neue, Helvetica, Arial, sans-serif;
+    text-align: center;
 }
 
 .intro__byline--wide {
@@ -792,7 +796,7 @@ textarea {
 }
 
 .intro__btn {
-    margin-top: 22px
+    flex: center;
 }
 
 .banner {
@@ -801,7 +805,7 @@ textarea {
 }
 
 .banner--faajob {
-    background-color: #042c75;
+    background-color: #0E43A4;
 }
 
 .banner--oyo {
@@ -870,7 +874,7 @@ textarea {
 }
 
 .banner__desc, .banner__service-list {
-    font-family: Avenir Next, Helvetica Neue, Helvetica, Arial, sans-serif
+    font-family: Muli, Helvetica Neue, Helvetica, Arial, sans-serif
 }
 
 .banner__service-list {
@@ -951,7 +955,7 @@ textarea {
 .cta__headline {
     font-size: 24px;
     line-height: 32px;
-    font-weight: 600;
+    font-weight: regular;
     margin-bottom: 10px;
     color: #fff
 }
@@ -960,7 +964,7 @@ textarea {
     font-size: 19px;
     line-height: 32px;
     color: #868c92;
-    font-family: Avenir Next, Helvetica Neue, Helvetica, Arial, sans-serif
+    font-family: Muli, Helvetica Neue, Helvetica, Arial, sans-serif
 }
 
 .cta__btn {
@@ -981,7 +985,7 @@ textarea {
 .cta__footline {
     color: #868c92;
     float: none;
-    font-family: Avenir Next, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-family: Muli, Helvetica Neue, Helvetica, Arial, sans-serif;
     font-size: 12px;
     line-height: 1;
     margin-top: 9px
@@ -1009,7 +1013,7 @@ textarea {
     display: -ms-flexbox;
     display: flex;
     float: left;
-    font-family: Avenir Next, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-family: Muli, Helvetica Neue, Helvetica, Arial, sans-serif;
     font-size: 16px;
     height: 235px;
     -ms-flex-pack: center;
@@ -1147,7 +1151,7 @@ textarea {
 
 .about__text {
     color: #868c92;
-    font-family: Avenir Next, Helvetica Neue, Helvetica, Arial, sans-serif
+    font-family: Muli, Helvetica Neue, Helvetica, Arial, sans-serif
 }
 
 .contact {
@@ -1159,13 +1163,13 @@ textarea {
 .contact__headline {
     font-size: 24px;
     line-height: 32px;
-    font-weight: 600;
+    font-weight: regular;
     margin-bottom: 15px
 }
 
 .contact__byline {
     color: #868c92;
-    font-family: Avenir Next, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-family: Muli, Helvetica Neue, Helvetica, Arial, sans-serif;
     font-size: 18px;
     line-height: 30px;
     margin-bottom: 10px
@@ -1203,7 +1207,7 @@ textarea {
 .contact__social-label {
     display: inline-block;
     float: left;
-    font-family: Avenir Next, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-family: Muli, Helvetica Neue, Helvetica, Arial, sans-serif;
     font-size: 16px;
     margin-bottom: 0;
     margin-top: 0
@@ -1267,7 +1271,7 @@ textarea {
 }
 
 .thanks__byline {
-    font-family: Avenir Next, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-family: Muli, Helvetica Neue, Helvetica, Arial, sans-serif;
     padding: 0 80px
 }
 
@@ -1320,7 +1324,7 @@ textarea {
     font-size: 16px;
     line-height: 24px;
     color: #fff;
-    font-family: Avenir Next, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-family: Muli, Helvetica Neue, Helvetica, Arial, sans-serif;
     opacity: .8
 }
 
@@ -1933,12 +1937,15 @@ textarea {
     .show-medium-onwards {
         display: block!important
     }
-    .header__nav, .intro__text {
+    .header__nav {
         float: left
     }
-    .intro__cta {
-        float: right
+
+    .intro__text {
+        margin: auto;
+
     }
+
     .banner__desc {
         max-width: 65%
     }
