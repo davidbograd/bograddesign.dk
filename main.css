@@ -808,6 +808,18 @@ textarea {
     background-color: #0E43A4;
 }
 
+.image-container {
+}
+
+.banner__img--faajob {
+  width: 100%;
+}
+
+.banner__inner--faajob {
+  display: flex;
+  align-content: center;
+}
+
 .banner--oyo {
     background-color: #b41c03;
     background-image: url(../images/projects/oyo/pattern.png);
@@ -1880,7 +1892,7 @@ textarea {
         position: absolute
     }
     .banner__img--faajob {
-        bottom: -46px;
+        /*bottom: -46px;*/
         right: -120px;
         width: 780px
     }
